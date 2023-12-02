@@ -1,4 +1,59 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'hello-friend'
+baseurl      = "localhost"
+title        = "XXXXXX"
+languageCode = "en-us"
+theme        = "hello-friend"
+paginate     = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "A simple and beautiful blog"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+  
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = true
+
+  # Metadata mostly used in document's head
+  description = "Malware reverse engineering and analysis"
+  keywords = "malware, blog, reversing, engineering, analysis"
+  images = [""]
+
+  defaultTheme = "dark"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Magpie Reversing"
+    keywords = ""
+    copyright = ""
+    readOtherPosts = "Read other posts"
+
+  [languages.en.params]
+    subtitle  = "Malware reverse engineering and analysis"
+
+    [languages.en.params.logo]
+      logoText = "Magpie Reversing"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
