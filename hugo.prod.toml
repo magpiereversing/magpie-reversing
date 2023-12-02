@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "https://magpiereversing.github.io/magpie-reversing"
 title        = "Magpie Reversing"
 languageCode = "en-us"
 theme        = "hello-friend"
@@ -48,7 +48,7 @@ paginate     = 10
 
     [languages.en.params.logo]
       logoText = "Magpie Reversing"
-      logoHomeLink = "/about"
+      logoHomeLink = "/magpie-reversing"
     # or
     #
     # path = "/img/your-example-logo.svg"
