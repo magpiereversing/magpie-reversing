@@ -1,5 +1,5 @@
 baseurl      = "localhost"
-title        = "XXXXXX"
+title        = "Magpie Reversing"
 languageCode = "en-us"
 theme        = "hello-friend"
 paginate     = 10
