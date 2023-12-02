@@ -46,7 +46,7 @@ paginate     = 10
 
     [languages.en.params.logo]
       logoText = "Magpie Reversing"
-      logoHomeLink = "/"
+      logoHomeLink = "/magpie-reversing"
     # or
     #
     # path = "/img/your-example-logo.svg"
